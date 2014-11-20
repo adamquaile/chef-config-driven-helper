@@ -32,7 +32,7 @@ protocols = {
     site['template'] = "#{type}_site.conf.erb"
     site['cookbook'] = 'config-driven-helper'
     site['protocols'] = ['http']
-    site['server_type'] = 'nginx'
+    site['server_type'] = type
 
   end
 end
